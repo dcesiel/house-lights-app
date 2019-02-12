@@ -8,13 +8,10 @@ export const setMasterSwitch = (masterSwitchOn) => ({
     masterSwitchOn
 });
 
-export const setKitchenLight = (kitchenLightOn) => {
-    console.log(kitchenLightOn);
-return {
+export const setKitchenLight = (kitchenLightOn) => ({
     type: SET_KITCHEN_LIGHT_ACTION,
-        kitchenLightOn
-}
-};
+    kitchenLightOn
+});
 
 export const setLivingRoomLight = (livingRoomLightOn) => ({
     type: SET_LIVING_ROOM_LIGHT_ACTION,
